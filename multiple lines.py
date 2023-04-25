@@ -3,9 +3,11 @@
 
 # open mylife.txt(write)
 with open("mylife.txt", 'w') as input_file:
-    
+
     # create loop
+    while True:
         # ask user for input
+        user_input = input("Enter something: ")
         # write user's input to mylife.txt
         # ask the user if they want to add more lines
         # write user's input to mylife.txt
