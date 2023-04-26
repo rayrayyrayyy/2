@@ -4,13 +4,17 @@
 import pyfiglet
 from termcolor import colored, cprint
 
+print_white = lambda x: cprint(x, 'white')
 print_yellow = lambda x: cprint(x, 'yellow')
 print_red = lambda x: cprint(x, 'red')
 print_magenta = lambda x: cprint(x, 'magenta')
 
 print_yellow('\n' + '-' * 100)
-intro = pyfiglet.figlet_format("Hello User!", font = 'contrast', width = 100, justify = 'center')
+intro = pyfiglet.figlet_format("Hello User!", font = 'starwars', width = 100, justify = 'center')
 print_magenta(intro)
+welcome = "You can enter multiple message and I'll save it in a file for you. You're welcome!"
+welcome_center = welcome.center(100)
+print_white(welcome_center)
 print_yellow('-' * 100)
 
 # open mylife.txt(write)
@@ -21,7 +25,7 @@ with open("mylife.txt", 'w') as input_file:
         # ask user for input
         user_input = input("\nEnter something: ")
         import time
-        print ("...")
+        print_magenta("...")
         time.sleep (2)
 
         # write user's input to mylife.txt
