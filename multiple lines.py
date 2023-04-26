@@ -27,5 +27,7 @@ with open("mylife.txt", 'w') as input_file:
         if reply == "N" or reply == "No" or reply == "NO" or reply == "no":
                 exit("\n\tHave a great day!")
         # if user input is invalid
-
+        else:
+            print("\tYou can type either YES, Yes, yes, Y or NO, No, no, N.") #These are the only acceptable inputs
+            break
 # end of program
