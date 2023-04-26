@@ -19,7 +19,7 @@ with open("mylife.txt", 'w') as input_file:
         reply = input("\n DO YOU WANT TO PUT ANOTHER LINE? YES/No? ")
 
         # write user's input to mylife.txt
-
+        input_file.write("DO YOU WANT TO PUT ANOTHER LINE? YES/No? " + str(user_input) + '\n')
         # if yes:
         if reply == "Y" or reply == "Yes" or reply == "YES" or reply == "yes":
              continue
