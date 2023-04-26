@@ -30,6 +30,8 @@ with open("mylife.txt", 'w') as input_file:
                 
         # if user input is invalid
         else:
-            print_red("\tYou can type either YES, Yes, yes, Y or NO, No, no, N.") #These are the only acceptable inputs
+            invalid_txt = "INVALID!"
+            invalid = pyfiglet.figlet_format(invalid_txt, font = "starwars", width = 100, justify = "center")
+            print_red(invalid + "\t\tYou can type either YES, Yes, yes, Y or NO, No, no, N.") #These are the only acceptable inputs
             break
 # end of program
