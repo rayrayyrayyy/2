@@ -15,12 +15,12 @@ with open("mylife.txt", 'w') as input_file:
         # ask user for input
         user_input = input("\nEnter something: ")
         # write user's input to mylife.txt
-        input_file.write("\nEnter something: " + str(user_input) + '\n')
+        input_file.write("Enter something: " + str(user_input) + '\n')
         # ask the user if they want to add more lines
         reply = input("\n DO YOU WANT TO PUT ANOTHER LINE? YES/No? ")
 
         # write user's input to mylife.txt
-        input_file.write("DO YOU WANT TO PUT ANOTHER LINE? YES/No? " + str(reply) + '\n')
+        input_file.write("\nDO YOU WANT TO PUT ANOTHER LINE? YES/No? " + str(reply) + '\n')
         # if yes:
         if reply == "Y" or reply == "y" or reply == "Yes" or reply == "YES" or reply == "yes":
              continue
