@@ -21,7 +21,7 @@ with open("mylife.txt", 'w') as input_file:
         # write user's input to mylife.txt
 
         # if yes:
-
+        if reply == "Y" or reply == "Yes" or reply == "YES" or reply == "yes":
         # if no:
 
         # if user input is invalid
