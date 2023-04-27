@@ -1,6 +1,3 @@
-Enter something: hi
+Enter something: ji
 
-DO YOU WANT TO PUT ANOTHER LINE? YES/No? y
-Enter something: hi
-
-DO YOU WANT TO PUT ANOTHER LINE? YES/No? n
+DO YOU WANT TO PUT ANOTHER LINE? YES/No? no
