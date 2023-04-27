@@ -1,9 +1,12 @@
-Enter something: MAma ko si christine
+Enter something: The sky is blue.
 
 DO YOU WANT TO PUT ANOTHER LINE? YES/No? yes
-Enter something: hi
+Enter something: The banana is yellow.
 
-DO YOU WANT TO PUT ANOTHER LINE? YES/No? 2
-Enter something: yes
+DO YOU WANT TO PUT ANOTHER LINE? YES/No? 000000
+Enter something: I love yellow.
 
-DO YOU WANT TO PUT ANOTHER LINE? YES/No? n
+DO YOU WANT TO PUT ANOTHER LINE? YES/No? y
+Enter something: I am sleepy.
+
+DO YOU WANT TO PUT ANOTHER LINE? YES/No? NO
