@@ -1,3 +1,9 @@
-Enter something: ji
+Enter something: MAma ko si christine
 
-DO YOU WANT TO PUT ANOTHER LINE? YES/No? no
+DO YOU WANT TO PUT ANOTHER LINE? YES/No? yes
+Enter something: hi
+
+DO YOU WANT TO PUT ANOTHER LINE? YES/No? 2
+Enter something: yes
+
+DO YOU WANT TO PUT ANOTHER LINE? YES/No? n

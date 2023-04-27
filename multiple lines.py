@@ -1,7 +1,9 @@
 # Ray Allessandra D. Pacis | BSCPE 1-5 
 # Write a method in python to write multiple line of text contents into a text file mylife.txt. 
 
+# modules
 import pyfiglet
+import time
 from termcolor import colored, cprint
 
 print_green = lambda x: cprint(x, 'green')
@@ -9,6 +11,7 @@ print_yellow = lambda x: cprint(x, 'yellow')
 print_red = lambda x: cprint(x, 'red')
 print_magenta = lambda x: cprint(x, 'magenta')
 
+# intro
 print_yellow('\n' + '-' * 100)
 intro = pyfiglet.figlet_format("Hello User!", font = 'starwars', width = 100, justify = 'center')
 print_magenta(intro)
@@ -24,7 +27,6 @@ with open("mylife.txt", 'w') as input_file:
     while True:
         # ask user for input
         user_input = input("\033[0;32m" +"\nEnter something: \033[0m")
-        import time
         print_magenta("...")
         time.sleep (2)
 
