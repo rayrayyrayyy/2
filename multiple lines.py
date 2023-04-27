@@ -12,7 +12,7 @@ print_magenta = lambda x: cprint(x, 'magenta')
 print_yellow('\n' + '-' * 100)
 intro = pyfiglet.figlet_format("Hello User!", font = 'starwars', width = 100, justify = 'center')
 print_magenta(intro)
-welcome = "You can enter multiple message and I'll save it in a file for you. You're welcome!"
+welcome = "You can enter multiple messages and I'll save it in a file for you. You're welcome!"
 welcome_center = welcome.center(100)
 print_white(welcome_center)
 print_yellow('-' * 100)
